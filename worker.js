@@ -5,6 +5,14 @@
   });
 
   async function handleRequest(request) {
+    const url = new URL(request.url);
+    const path = url.pathname;
+
+    // redirect to Github if the path is "/"
+    if (path === "/") {
+      return Response.redirect("https://github.com/Zikinn/totp-worker", 302);
+    }
+
     const userAgent = request.headers.get("user-agent");
 
     // Check if the user-agent contains "curl"
