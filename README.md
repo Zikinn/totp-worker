@@ -2,7 +2,7 @@
 Generate TOTP with Cloudflare Worker.
 ---
 ### How to Use:
-1. Web: `https://totp.zikin.org/<secret>`
+1. Use browser: `https://totp.zikin.org/<secret>`
 2. Via curl: `curl totp.zikin.org/<secret>` to get plain text without any HTML code.
 
 e.g. https://totp.zikin.org/JBSWY3DPEHPK3PXP
