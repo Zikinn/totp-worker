@@ -1,5 +1,4 @@
-# TOTP Generator on Worker
-Generate TOTP with Cloudflare Worker.
+# TOTP Generator on Cloudflare Worker
 ---
 ### How to Use:
 1. Use browser: `https://totp.zikin.org/<secret>`
